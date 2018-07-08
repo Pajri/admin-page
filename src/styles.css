@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';*/
+@import '../node_modules/font-awesome/css/font-awesome.css';
+
+.top-bar{
+	background-color: black;
+}
+.brand{
+	color:white;
+	font-size: 23px;
+}
+.username-group{
+	color:white;
+	text-align:center;
+}
+.username-group .role{
+	font-size:12px;
+}
+.profile{
+	color:white;
+	font-size:28px;
+}
+.profile .profile-dropdown{
+	text-align:center;
+}
+
+/**
+* sidebar
+*/
+.sidenav{
+	height: 100%;
+	background: #3f3f3f;
+}
+.sidenav ul{
+	position: absolute;
+    background: #535353;
+}
+.sidenav ul li{
+	background: #3f3f3f;
+    border-style: solid!important;
+    border-width: 0px 0px 1px 0px!important;
+    border-color: #595959!important
+}
+.sidenav ul li{
+	color: white;
+}
+.sidenav ul li:hover{
+	cursor: pointer;
+	background: #535353;
+	text-decoration: none;
+	color: white;
+}
+
+/**
+* Content
+*/
+.row .content{
+	background:#f8f9fa;
+}
+.content .card .card-body .scrollable{
+	max-height: 354px;
+	overflow-y: scroll;
+}
